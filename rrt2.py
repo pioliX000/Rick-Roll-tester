@@ -32,7 +32,7 @@ def selenium(x):
 			output = elem.get_attribute('outerHTML')
 			if "never gonna give you up" in output or "dQw4w9WgXcQ" in output:
 				y = "RUN BRUV"	
-			elif "never gonna give you up" in title or "rick ansley" in title:
+			elif "never gonna give you up" in title or "rick astley" in title:
 				y = "RUN BRUV"
 			else:
 				y = "u good bruv go ahead"
