@@ -37,10 +37,7 @@ def selenium(x):
 
 try:
 	rrt(sys.argv[1])
-	try:
-		selenium(sys.argv[1])
-	except: 
-		print("check2: error!")
-
+	selenium(sys.argv[1])
+	
 except IndexError:
 	print("Supply a link!")
